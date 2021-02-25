@@ -1,0 +1,58 @@
+.title{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.main-container{
+    display: flex;
+}
+
+.row{
+    flex-direction: row wrap;
+}
+
+.country-card { 
+    border-radius: 10px;
+}
+
+.country {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    border: 6px black;
+    width: 100vw;
+}
+
+.card{
+    box-shadow: 2px 4px 4px darkgrey;
+    margin: 20px;
+    padding: 0px 10px 5px 10px;
+    justify-content:space-between;
+    text-decoration: none;
+}
+
+.flag {
+    width: 250px;
+    height: 180px;
+    border: 1px solid black;
+    align-content:flex-start;
+}
+
+.country-name {
+    font-size: 18px;
+}
+
+.search{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: black; 
+   }
